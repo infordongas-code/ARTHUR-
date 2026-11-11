@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Perfil pessoal de Arthur.">
+  <title>Perfil | Arthur</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="topo">
+    <a class="marca" href="#inicio">Meu Perfil<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav id="menu" class="menu">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#interesses">Interesses</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-texto">
+        <p class="etiqueta">BEM-VINDO(A) AO MEU PERFIL</p>
+        <h1>Olá, eu sou <span>Arthur!</span></h1>
+        <p class="descricao">Este é meu espaço pessoal na internet. Aqui você pode conhecer um pouco mais sobre mim, meus interesses e meus objetivos.</p>
+        <a class="botao" href="#sobre">Conheça meu perfil <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="foto-area">
+        <div class="circulo"></div>
+        <img class="foto-perfil" src="img/foto-perfil.png" alt="Foto de perfil de Arthur">
+        <span class="selo">MEU<br>PERFIL</span>
+      </div>
+    </section>
+
+    <section class="secao sobre" id="sobre">
+      <div class="titulo-secao"><p class="etiqueta">UM POUCO SOBRE MIM</p><h2>Quem sou eu?</h2></div>
+      <div class="cartao-sobre">
+        <p>Meu nome é <strong>Arthur</strong>. Sou uma pessoa que está construindo sua história, aprendendo coisas novas e buscando evoluir a cada dia. Este perfil foi criado para apresentar um pouco sobre mim de forma simples e moderna.</p>
+        <p>Você pode editar este texto para incluir sua idade, sua cidade, sua escola, seus objetivos e outras informações que queira compartilhar.</p>
+      </div>
+    </section>
+
+    <section class="secao" id="interesses">
+      <div class="titulo-secao"><p class="etiqueta">O QUE FAZ PARTE DE MIM</p><h2>Meus interesses</h2></div>
+      <div class="cards">
+        <article class="card"><div class="icone">💻</div><h3>Tecnologia</h3><p>Aprender sobre computadores, internet e novas ferramentas.</p></article>
+        <article class="card"><div class="icone">🎯</div><h3>Objetivos</h3><p>Desenvolver minhas habilidades e conquistar novas oportunidades.</p></article>
+        <article class="card"><div class="icone">🚀</div><h3>Aprendizado</h3><p>Descobrir coisas novas e melhorar um pouco a cada dia.</p></article>
+      </div>
+    </section>
+
+    <section class="contato" id="contato">
+      <p class="etiqueta">VAMOS CONVERSAR?</p>
+      <h2>Entre em contato</h2>
+      <p>Adicione aqui suas informações de contato ou suas redes sociais.</p>
+      <a class="botao botao-claro" id="emailLink" href="mailto:seuemail@exemplo.com">Enviar mensagem</a>
+    </section>
+  </main>
+
+  <footer><p>© <span id="ano"></span> Arthur · Perfil pessoal</p><a href="#inicio">Voltar ao topo ↑</a></footer>
+</body>
+</html>
